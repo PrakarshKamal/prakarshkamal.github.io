@@ -1,0 +1,33 @@
+.logo-container {
+  z-index: 0;
+  width: 400px;
+  height: 60px;
+  position: relative;
+  top: 5%;
+  right: -25%;
+  bottom: 0;
+  left: auto;
+  margin: auto;
+  opacity: 1;
+
+  .solid-logo {
+    position: absolute;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: 0;
+    margin: auto;
+    width: 100%;
+    opacity: 1;
+    z-index: 1;
+    animation: heartBeat 4s 4s;
+  }
+}
+
+.logo-container img {
+  transition: all 1s;
+}
+
+.logo-container:hover img {
+  transform: rotate(360deg);
+}
