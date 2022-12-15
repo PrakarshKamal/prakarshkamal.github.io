@@ -1,9 +1,10 @@
 import React, { useState, useEffect, useRef } from 'react'
 import Loader from 'react-loaders'
 import emailjs from '@emailjs/browser'
-import AnimateLetters from '../AnimateLetters'
-import './index.scss'
 import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet'
+
+import './index.scss'
+import AnimateLetters from '../AnimateLetters'
 
 const Contact = () => {
   const contact = 'Contact me'

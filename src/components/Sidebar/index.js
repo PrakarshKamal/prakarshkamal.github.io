@@ -1,8 +1,5 @@
 import React from 'react'
 import { Link, NavLink } from 'react-router-dom'
-import './index.scss'
-import logo from '../../assets/images/logo-p.png'
-import logo_text from '../../assets/images/logo-text.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faEnvelope,
@@ -15,6 +12,10 @@ import {
   faInstagram,
   faLinkedin,
 } from '@fortawesome/free-brands-svg-icons'
+
+import './index.scss'
+import logo from '../../assets/images/logo-p.png'
+import logo_text from '../../assets/images/logo-text.png'
 
 const Sidebar = () => (
   <div className="nav-bar">

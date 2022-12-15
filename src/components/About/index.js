@@ -7,8 +7,9 @@ import {
   faReact,
 } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import AnimateLetters from '../AnimateLetters'
+
 import './index.scss'
+import AnimateLetters from '../AnimateLetters'
 import python from '../../assets/images/python3.png'
 import java from '../../assets/images/java-logo.png'
 import resume from '../../content/resume.pdf'

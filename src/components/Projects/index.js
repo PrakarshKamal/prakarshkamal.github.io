@@ -1,6 +1,7 @@
 import React from 'react'
-import './index.scss'
 import Loader from 'react-loaders'
+
+import './index.scss'
 
 const Project = () => {
   return (
