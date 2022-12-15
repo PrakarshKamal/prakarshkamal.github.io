@@ -37,7 +37,7 @@ const About = () => {
             I am a 3rd year CS Student @McMaster University. Currenly I am
             working @
             <a
-              // className="resume-button"
+              className="work-link"
               href="https://www.venasolutions.com/"
               target="_blank"
               rel="noreferrer"

@@ -79,6 +79,18 @@
   }
 }
 
+.work-link {
+  font-family: sans-serif;
+  padding-right: 7px;
+  text-decoration: none;
+  color: #07c5ff;
+  cursor: pointer;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
 @keyframes spinner {
   from,
   to {
