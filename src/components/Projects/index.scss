@@ -1,15 +1,9 @@
 .project-container {
-  color: #07c5ff;
-  font-size: 18px;
-  font-weight: 500;
-  border-radius: 7px;
-  letter-spacing: 4px;
-  font-family: sans-serif;
-  text-decoration: none;
-  padding: 10px 18px;
-  border: 1px solid #07c5ff;
-  white-space: nowrap;
-  position: absolute;
-  top: 40%;
-  left: 40%;
+  width: 80%;
+  text-align: center;
+  margin-left: 10%;
+}
+
+.project-container > .card-container {
+  display: inline-block;
 }
