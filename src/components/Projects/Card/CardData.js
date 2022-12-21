@@ -13,14 +13,15 @@ const data = [
   {
     image: gcal,
     title: 'Google Calendar Clone',
-    description: 'A working version of Google Calendar with events and labels.',
+    description:
+      'A working version of Google Calendar with event creation and labels.',
     link: 'https://github.com/PrakarshKamal/google-calendar-clone',
   },
   {
     image: user,
     title: 'Social Media App',
     description:
-      'Social media site consisting of login page, social features such as friend requests, submitting posts and liking posts.',
+      'Social media site with login page, friend requests, creating/liking posts.',
     link: 'https://github.com/PrakarshKamal/social-media-clone',
   },
 ]
