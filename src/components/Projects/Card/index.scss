@@ -1,8 +1,9 @@
 .card-container {
   display: inline-block;
   left: 15%;
-  margin-top: 8%;
+  margin-top: 12%;
   position: relative;
+  animation: fadeIn 1.4s 1.4s backwards;
 }
 
 .cards {
