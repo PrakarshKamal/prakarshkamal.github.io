@@ -1,25 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.4c2597a5.css",
-    "main.js": "/static/js/main.dc8e4767.js",
+    "main.css": "/static/css/main.ca3927c3.css",
+    "main.js": "/static/js/main.07e1940e.js",
     "static/js/787.f12a835c.chunk.js": "/static/js/787.f12a835c.chunk.js",
     "static/media/resume.pdf": "/static/media/resume.53d91b3abfdc97d32409.pdf",
     "static/media/hydronizer.png": "/static/media/hydronizer.82b7761b574f03695765.png",
     "static/media/logo-p.png": "/static/media/logo-p.17954d5a35b6e6243738.png",
     "static/media/helvetica-neu.ttf": "/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
     "static/media/logo-text.png": "/static/media/logo-text.faa0dc137e7201e4ba31.png",
+    "static/media/news.png": "/static/media/news.a8f02b59747dd1c8a063.png",
     "static/media/java-logo.png": "/static/media/java-logo.2be0bca1b95cfc0ce63e.png",
     "static/media/LaBelleAurore.woff2": "/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
     "static/media/gcal.png": "/static/media/gcal.193533ac63c612adfe51.png",
     "static/media/python3.png": "/static/media/python3.04ddea1b43164f05b756.png",
     "static/media/CoolveticaRg-Regular.woff2": "/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/index.html",
-    "main.4c2597a5.css.map": "/static/css/main.4c2597a5.css.map",
-    "main.dc8e4767.js.map": "/static/js/main.dc8e4767.js.map",
+    "main.ca3927c3.css.map": "/static/css/main.ca3927c3.css.map",
+    "main.07e1940e.js.map": "/static/js/main.07e1940e.js.map",
     "787.f12a835c.chunk.js.map": "/static/js/787.f12a835c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4c2597a5.css",
-    "static/js/main.dc8e4767.js"
+    "static/css/main.ca3927c3.css",
+    "static/js/main.07e1940e.js"
   ]
 }
