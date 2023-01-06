@@ -48,6 +48,10 @@
     outline: none;
   }
 
+  input::placeholder {
+    color: white;
+  }
+
   textarea {
     width: 100%;
     border: 0;
@@ -61,6 +65,10 @@
     border-radius: 7px;
     min-height: 130px;
     outline: none;
+  }
+
+  textarea::placeholder {
+    color: white;
   }
 
   .send-button {

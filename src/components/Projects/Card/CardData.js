@@ -8,7 +8,7 @@ const data = [
     image: news,
     title: 'The Daily Edition',
     description:
-      'A news app with a clean UI pulling lives news from the mediastack API',
+      'A news app with a clean UI pulling live news from the mediastack API',
     link: 'https://github.com/PrakarshKamal/the-daily-edition',
   },
   {
