@@ -47,10 +47,10 @@ const Contact = () => {
     <>
       <div className="container contact-page">
         <div className="text-zone">
-          <h1>
+          <h1 className="contact-me">
             <AnimateLetters letter={letter} strArr={contactArr} idx={15} />
           </h1>
-          <p>
+          <p id="para-text">
             I am interested in software development / front-end positions. For
             any questions or to chat, feel free to use the form below to send me
             a message! ☕
