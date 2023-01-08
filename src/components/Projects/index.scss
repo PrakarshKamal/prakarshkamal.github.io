@@ -1,11 +1,113 @@
-.project-container {
-  width: 100%;
-  text-align: center;
-  left: -10%;
-  bottom: 16%;
-  position: fixed;
-}
+.project-page {
+  padding-left: 100px;
+  padding-right: 50px;
+  width: calc(100% - 150px);
+  position: initial;
+  height: 100%;
+  overflow: auto;
 
-.project-container > .card-container {
-  display: inline-block;
+  h1.page-title {
+    margin-left: 150px;
+    margin-top: 150px;
+  }
+
+  .images-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-bottom: 100px;
+  }
+
+  .image-box {
+    position: relative;
+    flex: 1 1 20%;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 10px;
+    max-width: calc(25% - 10px);
+
+    .project-image {
+      position: absolute;
+      z-index: 2;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .content {
+      position: absolute;
+      width: 100%;
+      z-index: 3;
+      padding: 10px 20px;
+      transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+      background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.2) 0,
+        rgba(0, 0, 0, 1)
+      );
+      bottom: -70px;
+    }
+
+    .title {
+      margin-bottom: 0;
+      margin-top: 0;
+      color: #fff;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 24px;
+    }
+
+    .description {
+      font-size: 14px;
+      margin-bottom: 5px;
+      color: #fff;
+      font-weight: 700;
+    }
+
+    .button {
+      margin-top: 30px;
+      margin-bottom: 10px;
+      padding: 0 24px;
+      height: 40px;
+      line-height: 34px;
+      border: 2px solid #07c5ff;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+      color: #fff;
+      background: transparent;
+      letter-spacing: 3px;
+      font-weight: 700;
+      transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    }
+
+    .button:hover {
+      transform: translateY(-5px);
+      background: #07c5ff;
+    }
+
+    &:after {
+      content: '';
+      background: linear-gradient(180deg, #07c5ff, #000);
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      width: 100%;
+      height: 100%;
+      transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+      z-index: 2;
+      opacity: 0;
+    }
+
+    &:hover:after {
+      opacity: 0.85;
+    }
+
+    &:hover .content {
+      bottom: 0;
+      background: transparent;
+    }
+  }
 }
