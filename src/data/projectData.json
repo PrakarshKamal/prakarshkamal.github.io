@@ -9,13 +9,13 @@
     {
       "image": "/projects/images/hydronizer.png",
       "title": "Hydronizer",
-      "description": "A fullstack + hardware smart water solution to track water consumption of user.",
+      "description": "A fullstack + hardware smart water solution to track water consumption of the user.",
       "link": "https://github.com/PrakarshKamal/hydronizer"
     },
     {
       "image": "/projects/images/gcal.png",
       "title": "Google Calendar Clone",
-      "description": "A working version of Google Calendar with event creation and labels.",
+      "description": "A working version of Google Calendar with event creation + labels.",
       "link": "https://github.com/PrakarshKamal/google-calendar-clone"
     },
     {
