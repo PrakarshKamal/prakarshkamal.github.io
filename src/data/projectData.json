@@ -3,7 +3,7 @@
     {
       "image": "/projects/images/news.png",
       "title": "The Daily Edition",
-      "description": "A news app that fetches news from the mediastack news API and displays it in a beautiful UI.",
+      "description": "A news app that fetches news from the mediastack news API and displays in a beautiful UI.",
       "link": "https://github.com/PrakarshKamal/the-daily-edition"
     },
     {

@@ -6,7 +6,7 @@ import AnimateLetters from '../AnimateLetters'
 import projectData from '../../data/projectData.json'
 
 const Project = () => {
-  const project = 'Project'
+  const project = 'Projects'
   const projecctArr = [...project]
   const [letterClass, setLetterClass] = useState('text-animate')
 
