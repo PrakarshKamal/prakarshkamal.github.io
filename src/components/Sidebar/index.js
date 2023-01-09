@@ -7,6 +7,7 @@ import {
   faUser,
   faBolt,
   faBars,
+  faClose,
 } from '@fortawesome/free-solid-svg-icons'
 import {
   faGithub,
@@ -64,7 +65,7 @@ const Sidebar = () => {
           <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
         </NavLink>
         <FontAwesomeIcon
-          icon={faBars}
+          icon={faClose}
           size="3x"
           className="close-icon"
           color="#07c5ff"
