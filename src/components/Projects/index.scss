@@ -7,8 +7,8 @@
   overflow: auto;
 
   h1.page-title {
-    margin-left: 150px;
-    margin-top: 150px;
+    margin-left: 100px;
+    margin-top: 160px;
   }
 
   .images-container {
@@ -16,15 +16,17 @@
     flex-wrap: wrap;
     gap: 20px;
     padding-bottom: 100px;
+    margin-left: 10%;
   }
 
   .image-box {
     position: relative;
-    flex: 1 1 20%;
-    height: 400px;
+    flex: 1 1 200px;
+    height: 300px;
     overflow: hidden;
     border-radius: 10px;
-    max-width: calc(25% - 10px);
+    max-width: 250px;
+    margin-left: 10px;
 
     .project-image {
       position: absolute;
