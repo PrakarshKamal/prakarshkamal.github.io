@@ -24,6 +24,7 @@
 
 .card.about__card {
   text-align: center;
+  background: var(--color-light);
 }
 
 .about__card-icon {

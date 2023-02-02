@@ -67,6 +67,14 @@ header {
   transform: translateX(-0.5rem);
 }
 
+.button.light {
+  background: var(--color-white);
+}
+
+.button.light:hover {
+  border-color: rgb(132, 132, 132);
+}
+
 /* MEDIA QUEREIES FOR TABLETS */
 @media screen and (max-width: 1024px) {
   header {
