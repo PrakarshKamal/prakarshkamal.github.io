@@ -42,7 +42,7 @@ const App = () => {
   };
 
   useEffect(() => {
-    const checkYPosition = setInterval(handleToggleFloatingNav, 2500);
+    const checkYPosition = setInterval(handleToggleFloatingNav, 2000);
 
     //clean up function
     return () => {
