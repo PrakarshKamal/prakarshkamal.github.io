@@ -11,7 +11,7 @@ const Header = () => {
   }, []);
 
   return (
-    <header id="header">
+    <section id="header">
       <div className="container header__container">
         <div className="header__portrait" data-aos="zoom-in">
           <img src={HeaderPortrait} alt="" />
@@ -39,7 +39,7 @@ const Header = () => {
           ))}
         </div>
       </div>
-    </header>
+    </section>
   );
 };
 
