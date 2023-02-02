@@ -29,7 +29,7 @@ const Footer = () => {
       <div className="footer__text">
         {/* <small>Made with &#10084;&#65039; by Prakarsh</small> */}
         {/* <h5>Made with &#10084;&#65039; by Prakarsh</h5> */}
-        <p>Made with &#10084;&#65039; by Prakarsh</p>
+        <p>Made with &nbsp;&#10084;&#65039; &nbsp; by Prakarsh</p>
       </div>
     </footer>
   );
