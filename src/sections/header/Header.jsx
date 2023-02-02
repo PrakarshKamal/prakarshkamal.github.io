@@ -16,8 +16,8 @@ const Header = () => {
         <div className="header__portrait" data-aos="zoom-in">
           <img src={HeaderPortrait} alt="" />
         </div>
-        <h2 data-aos="fade-up">Prakarsh Kamal</h2>
-        <p data-aos="fade-up">Software Developer | Student | Learner</p>
+        <h1 data-aos="fade-up">Prakarsh Kamal</h1>
+        <h5 data-aos="fade-up">Software Developer | Student | Learner</h5>
         <div className="header__cta" data-aos="fade-up">
           <a href="#contact" className="button primary">
             Contact Me

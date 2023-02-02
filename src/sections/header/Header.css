@@ -19,13 +19,20 @@ header {
   height: 22rem;
   border-radius: 9rem 9rem 2rem 2rem;
   overflow: hidden;
-  /* margin-bottom: 1.5rem; */
 }
 
-.header__container p {
+.header__container h1 {
+  font-size: 3.3rem;
+  font-weight: 600;
+  margin-top: -2rem;
+}
+
+.header__container h5 {
   text-align: center;
   width: 35rem;
-  margin: 0.6rem 0 2rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 1.5rem 0 2rem;
 }
 
 .header__cta {
@@ -76,8 +83,13 @@ header {
     max-height: 35vh;
   }
 
-  .header__container p {
+  .header__container h1 {
+    font-size: 2.5rem;
+  }
+
+  .header__container h5 {
     width: 100%;
+    font-size: 0.9rem;
   }
 
   .header__cta {
