@@ -4,7 +4,7 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { ModalProvider } from "./context/ModalContext";
-import { ThemeProvider } from "./context/Theme-Context";
+import { ThemeProvider } from "./context/ThemeContext";
 
 const root = ReactDOM.createRoot(document.querySelector("#root"));
 root.render(
