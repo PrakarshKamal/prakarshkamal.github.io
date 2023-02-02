@@ -27,6 +27,8 @@ nav {
 .nav__menu {
   display: flex;
   gap: 3.5rem;
+  font-weight: 500;
+  font-size: 1.1rem;
 }
 
 #theme__icon {

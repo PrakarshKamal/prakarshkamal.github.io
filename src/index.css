@@ -79,6 +79,11 @@ main {
   --color-primary: hsl(var(--primary-hue), 90%, 56%);
 }
 
+main .header__socials a {
+  background: var(--color-white);
+  color: var(--color-black);
+}
+
 /* GENERAL CONTAINER CLASS */
 .container {
   width: var(--container-width-lg);
