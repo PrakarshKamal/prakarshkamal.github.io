@@ -9,25 +9,25 @@
     align-items: center;
     position: fixed;
     left: 50%;
-    bottom: 3rem;
+    bottom: 2rem;
     transform: translateX(-50%);
     z-index: 999;
   }
 
   .scrollspy {
     display: flex;
-    gap: 1.5rem;
+    gap: 1.2rem;
     background: rgba(0, 0, 0, 0.4);
-    padding: 0.8rem 1.6rem;
+    padding: 0.5rem 1rem;
     border-radius: 3rem;
     backdrop-filter: blur(20px);
   }
 
   #floating__nav a {
     color: #fff;
-    padding: 0.7rem;
+    padding: 0.4rem;
     border-radius: 50%;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     display: grid;
   }
 
