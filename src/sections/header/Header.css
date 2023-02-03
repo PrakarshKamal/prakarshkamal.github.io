@@ -93,12 +93,12 @@ header {
   }
 
   .header__container h1 {
-    font-size: 2.5rem;
+    font-size: 2.1rem;
   }
 
   .header__container h5 {
     width: 100%;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
 
   .header__cta {
