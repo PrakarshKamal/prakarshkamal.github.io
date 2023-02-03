@@ -37,7 +37,9 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
+body,
+input,
+textarea {
   font-family: "Montserrat", sans-serif;
   line-height: 1.6;
   font-size: 0.9rem;
