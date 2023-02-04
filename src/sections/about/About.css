@@ -7,7 +7,7 @@
 .about__portrait {
   height: fit-content;
   max-height: 40rem;
-  border: 0.75rem solid var(--color-white);
+  border: 0.85rem solid var(--color-light);
   transition: var(--transition);
 }
 
