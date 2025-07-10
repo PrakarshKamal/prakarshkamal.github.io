@@ -27,9 +27,10 @@ const About = () => {
             ))}
           </div>
           <p>
-            Hi, my name is Prakarsh Kamal, I am a 4th year CS student @McMaster
-            University. I am a detail-oriented, resilient and creative
-            individual who loves to solve complex problems.
+            Hi, my name is Prakarsh Kamal, I am a recent computer science
+            graduate CS from McMaster University. I am a detail-oriented,
+            resilient and creative individual who loves to solve complex
+            problems.
           </p>
           <a href={Resume} download className="button primary">
             Download Resume
