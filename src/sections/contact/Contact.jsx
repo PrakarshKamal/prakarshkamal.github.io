@@ -32,9 +32,8 @@ const Contact = () => {
         <div className="text-zone">
           <h2 className="contact-me">Contact Me</h2>
           <p className="para-text">
-            I am interested in software development / front-end positions. For
-            any questions or to chat, feel free to use the form below to send me
-            a message! ☕
+            I am interested in software development positions. For any questions
+            or to chat, feel free to use the form below to send me a message! ☕
           </p>
           <div className="contact-form">
             <form ref={contactFormRef} onSubmit={sendEmail}>

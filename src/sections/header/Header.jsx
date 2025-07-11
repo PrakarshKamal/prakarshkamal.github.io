@@ -17,7 +17,9 @@ const Header = () => {
           <img src={HeaderPortrait} alt="" />
         </div>
         <h1 data-aos="fade-up">Prakarsh Kamal</h1>
-        <h5 data-aos="fade-up">Software Developer | Student | Learner</h5>
+        <h5 data-aos="fade-up">
+          Software Developer | Problem Solver | Self-Starter
+        </h5>
         <div className="header__cta" data-aos="fade-up">
           <a href="#contact" className="button primary">
             Contact Me

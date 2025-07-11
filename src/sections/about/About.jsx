@@ -27,10 +27,11 @@ const About = () => {
             ))}
           </div>
           <p>
-            Hi, my name is Prakarsh Kamal, I am a recent computer science
-            graduate CS from McMaster University. I am a detail-oriented,
-            resilient and creative individual who loves to solve complex
-            problems.
+            Hi, my name is Prakarsh Kamal. I’m a Software Developer with 1+
+            years of professional experience at Vena Solutions, where I focused
+            on delivering production-ready enterprise applications. I’m also a
+            recent Computer Science graduate from McMaster University, and a
+            detail-oriented, resilient, and creative problem solver.
           </p>
           <a href={Resume} download className="button primary">
             Download Resume

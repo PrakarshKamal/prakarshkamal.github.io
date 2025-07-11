@@ -5,8 +5,18 @@ import news from "../../assets/news.png";
 import user from "../../assets/user.jpeg";
 import portfolio from "../../assets/portfolio.png";
 import bash from "../../assets/bash.png";
+import finddit from "../../assets/finddit.png";
 
 const data = [
+  {
+    id: 0,
+    category: "Full Stack",
+    image: finddit,
+    title: "Finddit",
+    desc: "A group restaurant picker mobile app built with React Native and Firebase",
+    demo: "https://github.com/PrakarshKamal/finddit",
+    github: "https://github.com/PrakarshKamal/finddit",
+  },
   {
     id: 1,
     category: "Full Stack",
@@ -30,7 +40,7 @@ const data = [
     category: "Front-end",
     image: gcal,
     title: "Google Calendar Clone",
-    desc: "A working version of Google Calendar with event creation and labels.",
+    desc: "A working version of Google Calendar with event creation and labels",
     demo: "https://pk-gcal.netlify.app/",
     github: "https://github.com/PrakarshKamal/google-calendar-clone",
   },
