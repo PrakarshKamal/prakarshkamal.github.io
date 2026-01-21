@@ -36,13 +36,22 @@
 
 .portfolio__project-image {
   width: 100%;
-  height: fit-content;
-  min-height: 7rem;
-  max-height: 15rem;
+  height: 15rem;
   background: var(--color-light);
   border-radius: var(--border-radius-2);
   overflow: hidden;
   margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.portfolio__project-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
 }
 
 .portfolio__project p {

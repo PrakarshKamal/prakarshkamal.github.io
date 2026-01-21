@@ -6,10 +6,20 @@ import user from "../../assets/user.jpeg";
 import portfolio from "../../assets/portfolio.png";
 import bash from "../../assets/bash.png";
 import finddit from "../../assets/finddit.png";
+import rss from "../../assets/rss.webp";
 
 const data = [
   {
     id: 0,
+    category: "Full Stack",
+    image: rss,
+    title: "Digest (AI Newsletter)",
+    desc: "AI-powered newsletter that curates and summarizes daily tech news",
+    demo: "https://github.com/PrakarshKamal/digest",
+    github: "https://github.com/PrakarshKamal/digest",
+  },
+  {
+    id: 1,
     category: "Full Stack",
     image: finddit,
     title: "Finddit",
@@ -18,7 +28,7 @@ const data = [
     github: "https://github.com/PrakarshKamal/finddit",
   },
   {
-    id: 1,
+    id: 2,
     category: "Full Stack",
     image: movies,
     title: "Ripe Mangoes",
@@ -27,7 +37,7 @@ const data = [
     github: "https://github.com/PrakarshKamal/ripe-mangoes",
   },
   {
-    id: 2,
+    id: 3,
     category: "Full Stack",
     image: hydronizer,
     title: "Hydronizer",
@@ -36,7 +46,7 @@ const data = [
     github: "https://github.com/PrakarshKamal/hydronizer",
   },
   {
-    id: 3,
+    id: 4,
     category: "Front-end",
     image: gcal,
     title: "Google Calendar Clone",
@@ -45,7 +55,7 @@ const data = [
     github: "https://github.com/PrakarshKamal/google-calendar-clone",
   },
   {
-    id: 4,
+    id: 5,
     category: "Full Stack",
     image: news,
     title: "The Daily Edition",
@@ -54,7 +64,7 @@ const data = [
     github: "https://github.com/PrakarshKamal/the-daily-edition",
   },
   {
-    id: 5,
+    id: 6,
     category: "Full Stack",
     image: user,
     title: "Social Media App",
@@ -63,7 +73,7 @@ const data = [
     github: "https://github.com/PrakarshKamal/social-media-clone",
   },
   {
-    id: 6,
+    id: 7,
     category: "Front-end",
     image: portfolio,
     title: "Personal Portfolio",
@@ -72,7 +82,7 @@ const data = [
     github: "https://github.com/PrakarshKamal/prakarshkamal.github.io",
   },
   {
-    id: 7,
+    id: 8,
     category: "Back-end",
     image: bash,
     title: "Bash File Controller",

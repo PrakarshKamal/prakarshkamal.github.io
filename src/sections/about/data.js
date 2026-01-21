@@ -16,7 +16,7 @@ const data = [
     id: 1,
     icon: <FaAward />,
     title: "Experience",
-    desc: "1+ YOE",
+    desc: "2+ YOE",
   },
   { id: 2, icon: <ImBooks />, title: "Projects", desc: "10+ Completed" },
   {
