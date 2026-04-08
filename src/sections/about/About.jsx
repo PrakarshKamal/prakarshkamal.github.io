@@ -27,13 +27,18 @@ const About = () => {
             ))}
           </div>
           <p>
-            Hi, my name is Prakarsh Kamal. I’m a Software Developer with 2+
-            years of professional experience at Vena Solutions, where I focused
-            on delivering production-ready enterprise applications. I’m also a
-            recent Computer Science graduate from McMaster University, and a
-            detail-oriented, resilient, and creative problem solver.
+            Hi, my name is Prakarsh Kamal. I’m a Software Developer with around
+            3 years of professional experience. During my time at Vena
+            Solutions, I focused on delivering production-ready enterprise
+            applications. I’m also a recent Computer Science graduate from
+            McMaster University, and a detail-oriented, resilient, and creative
+            problem solver.
           </p>
-          <a href={Resume} download="Prakarsh_Kamal_Resume" className="button primary">
+          <a
+            href={Resume}
+            download="Prakarsh_Kamal_Resume"
+            className="button primary"
+          >
             Download Resume
             <FiDownload />
           </a>
