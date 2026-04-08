@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.c040f2de.css",
-    "main.js": "/static/js/main.e25541a4.js",
+    "main.js": "/static/js/main.37c4afd4.js",
     "static/js/787.f12a835c.chunk.js": "/static/js/787.f12a835c.chunk.js",
     "static/media/profile-2.jpg": "/static/media/profile-2.e46a055296124931c92f.jpg",
     "static/media/movies.png": "/static/media/movies.2d250960bd779c87edc0.png",
     "static/media/finddit.png": "/static/media/finddit.eba5c076aac578023a55.png",
     "static/media/profile.jpg": "/static/media/profile.63c0afdd6d89b14a20d4.jpg",
     "static/media/portfolio.png": "/static/media/portfolio.d68a9a29d366c988c087.png",
-    "static/media/resume.pdf": "/static/media/resume.d4dd847132ce54c41e5d.pdf",
+    "static/media/resume.pdf": "/static/media/resume.edb597e29453c19cd7fe.pdf",
     "static/media/rss.webp": "/static/media/rss.eb158cee41d37e3f0e4e.webp",
     "static/media/logo-p.png": "/static/media/logo-p.17954d5a35b6e6243738.png",
     "static/media/news.png": "/static/media/news.a8f02b59747dd1c8a063.png",
@@ -16,11 +16,11 @@
     "static/media/user.jpeg": "/static/media/user.eb56fb22b04e9bfc2a38.jpeg",
     "index.html": "/index.html",
     "main.c040f2de.css.map": "/static/css/main.c040f2de.css.map",
-    "main.e25541a4.js.map": "/static/js/main.e25541a4.js.map",
+    "main.37c4afd4.js.map": "/static/js/main.37c4afd4.js.map",
     "787.f12a835c.chunk.js.map": "/static/js/787.f12a835c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c040f2de.css",
-    "static/js/main.e25541a4.js"
+    "static/js/main.37c4afd4.js"
   ]
 }
