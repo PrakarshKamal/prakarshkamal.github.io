@@ -8,10 +8,16 @@ import Footer from "./sections/footer/Footer";
 import FloatingNav from "./sections/floating-nav/FloatingNav";
 import Modal from "./components/Modal";
 import Theme from "./theme/Theme";
+import PcBuildPage from "./pages/PcBuildPage";
 import { useThemeContext } from "./context/ThemeContext";
+import { isPcBuildPath, restoreRedirectedPath } from "./utils/sitePaths";
+
+restoreRedirectedPath();
 
 const App = () => {
   const { themeState } = useThemeContext();
+  const showPcBuildPage =
+    typeof window !== "undefined" && isPcBuildPath(window.location.pathname);
 
   const mainRef = useRef();
 
@@ -51,20 +57,53 @@ const App = () => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [pageYPosition]);
 
+  useEffect(() => {
+    if (showPcBuildPage || typeof window === "undefined") {
+      return;
+    }
+
+    const scrollToHashTarget = () => {
+      const hash = window.location.hash.replace("#", "");
+
+      if (!hash) {
+        return;
+      }
+
+      const target = document.getElementById(hash);
+
+      if (target) {
+        target.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    };
+
+    scrollToHashTarget();
+    window.addEventListener("hashchange", scrollToHashTarget);
+
+    return () => {
+      window.removeEventListener("hashchange", scrollToHashTarget);
+    };
+  }, [showPcBuildPage]);
+
   return (
     <main
       className={`${themeState.primary} ${themeState.background}`}
       ref={mainRef}
     >
-      <NavBar />
-      <Header />
-      <About />
-      <Portfolio />
-      <Contact />
-      <Footer />
+      {showPcBuildPage ? (
+        <PcBuildPage />
+      ) : (
+        <>
+          <NavBar />
+          <Header />
+          <About />
+          <Portfolio />
+          <Contact />
+          <Footer />
+        </>
+      )}
       <Modal />
       <Theme />
-      {showFloatingNav && <FloatingNav />}
+      {!showPcBuildPage && showFloatingNav && <FloatingNav />}
     </main>
   );
 };
