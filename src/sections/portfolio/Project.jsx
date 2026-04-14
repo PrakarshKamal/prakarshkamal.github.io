@@ -2,6 +2,13 @@ import React from "react";
 import Card from "../../components/Card";
 
 export const Project = ({ project }) => {
+  const demoTarget = project.demo?.startsWith("/") ? "_self" : "_blank";
+  const demoRel =
+    demoTarget === "_blank" ? "noopener noreferrer" : undefined;
+  const githubTarget = project.github?.startsWith("/") ? "_self" : "_blank";
+  const githubRel =
+    githubTarget === "_blank" ? "noopener noreferrer" : undefined;
+
   return (
     <Card className="portfolio__project">
       <div className="portfolio__project-image">
@@ -13,19 +20,21 @@ export const Project = ({ project }) => {
         <a
           href={project.demo}
           className="button sm"
-          target="_blank"
-          rel="noopener noreferrer"
+          target={demoTarget}
+          rel={demoRel}
         >
-          Demo
+          {project.demoLabel || "Demo"}
         </a>
-        <a
-          href={project.github}
-          className="button sm primary"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Github
-        </a>
+        {project.github && (
+          <a
+            href={project.github}
+            className="button sm primary"
+            target={githubTarget}
+            rel={githubRel}
+          >
+            {project.githubLabel || "Github"}
+          </a>
+        )}
       </div>
     </Card>
   );

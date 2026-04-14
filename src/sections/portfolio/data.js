@@ -7,8 +7,19 @@ import portfolio from "../../assets/portfolio.png";
 import bash from "../../assets/bash.png";
 import finddit from "../../assets/finddit.png";
 import rss from "../../assets/rss.webp";
+import pcBuild from "../../assets/pc-build/13.jpeg";
+import { PC_BUILD_ROUTE } from "../../utils/sitePaths";
 
 const data = [
+  {
+    id: 9,
+    category: "Hardware",
+    image: pcBuild,
+    title: "Custom PC Build",
+    desc: "A fully sourced and self-built AM5 + Radeon system documented step by step to showcase PC architecture, assembly, and troubleshooting knowledge",
+    demo: PC_BUILD_ROUTE,
+    demoLabel: "View Build",
+  },
   {
     id: 0,
     category: "Full Stack",
@@ -67,10 +78,10 @@ const data = [
     id: 6,
     category: "Full Stack",
     image: user,
-    title: "Social Media App",
+    title: "Social Hub",
     desc: "A Social media site with a login page, friend requests, creating and liking posts",
-    demo: "https://github.com/PrakarshKamal/social-media-clone",
-    github: "https://github.com/PrakarshKamal/social-media-clone",
+    demo: "https://github.com/PrakarshKamal/social-hub",
+    github: "https://github.com/PrakarshKamal/social-hub",
   },
   {
     id: 7,
