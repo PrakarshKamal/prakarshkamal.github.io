@@ -28,12 +28,12 @@ const About = () => {
             ))}
           </div>
           <p>
-            Hi, my name is Prakarsh Kamal. I’m a Software Developer with around
-            2 years of professional experience. During my time at Vena
-            Solutions, I focused on delivering production-ready enterprise
-            applications. I’m also a recent Computer Science graduate from
-            McMaster University, and a detail-oriented, resilient, and creative
-            problem solver.
+            Hi, my name is Prakarsh Kamal. I’m a Software Developer with 2+
+            years of professional experience. During my time at Vena Solutions,
+            I focused on delivering production-ready enterprise applications.
+            I’m also a recent Computer Science graduate from McMaster
+            University, and a detail-oriented, resilient, and creative problem
+            solver.
           </p>
           <div className="about__actions">
             <a
