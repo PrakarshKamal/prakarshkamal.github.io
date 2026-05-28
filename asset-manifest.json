@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c8a241c0.css",
-    "main.js": "/static/js/main.2e9def85.js",
+    "main.js": "/static/js/main.57cb9c55.js",
     "static/js/787.f12a835c.chunk.js": "/static/js/787.f12a835c.chunk.js",
     "static/media/build.MP4": "/static/media/build.155726fef947d5d7505c.MP4",
     "static/media/13.jpeg": "/static/media/13.731641dd1ff5f4fafdac.jpeg",
@@ -22,7 +22,7 @@
     "static/media/1.jpeg": "/static/media/1.a8b27bfc3a32a0b8f7d9.jpeg",
     "static/media/7.jpeg": "/static/media/7.136cfdbdb273492d8d74.jpeg",
     "static/media/portfolio.png": "/static/media/portfolio.d68a9a29d366c988c087.png",
-    "static/media/resume.pdf": "/static/media/resume.edb597e29453c19cd7fe.pdf",
+    "static/media/resume.pdf": "/static/media/resume.9cf804ae1179374f0d5e.pdf",
     "static/media/rss.webp": "/static/media/rss.eb158cee41d37e3f0e4e.webp",
     "static/media/blacklight-logo.png": "/static/media/blacklight-logo.b0d039932847a1c4fc6d.png",
     "static/media/logo-p.png": "/static/media/logo-p.17954d5a35b6e6243738.png",
@@ -31,11 +31,11 @@
     "static/media/user.jpeg": "/static/media/user.eb56fb22b04e9bfc2a38.jpeg",
     "index.html": "/index.html",
     "main.c8a241c0.css.map": "/static/css/main.c8a241c0.css.map",
-    "main.2e9def85.js.map": "/static/js/main.2e9def85.js.map",
+    "main.57cb9c55.js.map": "/static/js/main.57cb9c55.js.map",
     "787.f12a835c.chunk.js.map": "/static/js/787.f12a835c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c8a241c0.css",
-    "static/js/main.2e9def85.js"
+    "static/js/main.57cb9c55.js"
   ]
 }
