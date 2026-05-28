@@ -8,9 +8,19 @@ import bash from "../../assets/bash.png";
 import finddit from "../../assets/finddit.png";
 import rss from "../../assets/rss.webp";
 import pcBuild from "../../assets/pc-build/13.jpeg";
+import blacklightLogo from "../../assets/blacklight-logo.png";
 import { PC_BUILD_ROUTE } from "../../utils/sitePaths";
 
 const data = [
+  {
+    id: 10,
+    category: "Full Stack",
+    image: blacklightLogo,
+    title: "Blacklight",
+    desc: "An AI firewall for LLM and RAG workflows that detects hidden prompt injections and obfuscated instructions in uploaded files using OCR and multimodal threat analysis.",
+    demo: "https://blacklight-ai.vercel.app/",
+    github: "https://github.com/PrakarshKamal/blacklight",
+  },
   {
     id: 9,
     category: "Hardware",
